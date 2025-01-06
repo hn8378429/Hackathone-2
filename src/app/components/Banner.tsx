@@ -65,72 +65,93 @@ export default function Banner() {
       </div>
 
       {/* Third Section: Four Images with Text and Prices */}
-<div className="bg-white p-0 rounded-lg shadow-md">
-  {/* Section Title */}
-  <div className="text-center mb-10">
-    <h2 className="text-black-600">
-      Find a bright idea to suit your taste with our great selection of suspension, floor, and table lights.
-    </h2>
-    <p className="text-3xl font-bold">Top Picks For You</p>
+      <div className="bg-white p-0 rounded-lg shadow-md">
+        {/* Section Title */}
+        <div className="text-center mb-10">
+          <h2 className="text-black-600">
+            Find a bright idea to suit your taste with our great selection of suspension, floor, and table lights.
+          </h2>
+          <p className="text-3xl font-bold">Top Picks For You</p>
+        </div>
+
+        {/* Images Row */}
+        <div className="grid grid-cols-4 gap-8">
+          {/* First Product */}
+          <div className="flex flex-col items-center">
+            <img
+              src="/Mask group (6).png" // Replace with the actual path to your image
+              alt="Trenton modular sofa"
+              className="w-48 h-48 object-contain mb-4"
+            />
+            <p className="text-black-600">Trenton modular sofa-3</p>
+            <h3 className="text-lg font-medium">Rs. 25,000.00</h3>
+          </div>
+
+          {/* Second Product */}
+          <div className="flex flex-col items-center">
+            <img
+              src="Granite dining table with dining chair 1.png" // Replace with the actual path to your image
+              alt="Granite dining table"
+              className="w-48 h-48 object-contain mb-4"
+            />
+            <p className="text-black-600">
+              Granite dining table with dining chairs
+            </p>
+            <h3 className="text-lg font-medium">Rs. 25,000.00</h3>
+          </div>
+
+          {/* Third Product */}
+          <div className="flex flex-col items-center">
+            <img
+              src="/Mask group (5).png" // Replace with the actual path to your image
+              alt="Outdoor bar table"
+              className="w-48 h-48 object-contain mb-4"
+            />
+            <p className="text-black-600">Outdoor bar table</p>
+            <h3 className="text-lg font-medium">Rs. 25,000.00</h3>
+          </div>
+
+          {/* Fourth Product */}
+          <div className="flex flex-col items-center">
+            <img
+              src="/Mask group (3).png" // Replace with the actual path to your image
+              alt="Plain console with mirror"
+              className="w-48 h-48 object-contain mb-4"
+            />
+            <p className="text-black-600">Plain console with mirror</p>
+            <h3 className="text-lg font-medium">Rs. 25,000.00</h3>
+          </div>
+        </div>
+
+        {/* View More Button */}
+        <div className="flex justify-center mt-8">
+          <button className="px-8 py-3 bg-black text-white rounded hover:bg-gray-800">
+            View More
+          </button>
+        </div>
+      </div>
+
+      {/* New Section with Uploaded Image */}
+      <div className="bg-[#FFF8E6] flex items-center justify-between px-10 py-16">
+  {/* Left Image Section */}
+  <div className="flex-1">
+    <img
+      src="/Asgaard sofa 1.png" // Replace with your uploaded image path
+      alt="Asgaard Sofa"
+      className="w-full h-auto object-contain"
+    />
   </div>
 
-  {/* Images Row */}
-  <div className="grid grid-cols-4 gap-8">
-    {/* First Product */}
-    <div className="flex flex-col items-center">
-      <img
-        src="/Mask group (6).png" // Replace with the actual path to your image
-        alt="Trenton modular sofa"
-        className="w-48 h-48 object-contain mb-4"
-      />
-      <p className="text-black-600">Trenton modular sofa-3</p>
-      <h3 className="text-lg font-medium">Rs. 25,000.00</h3>
-    </div>
-
-    {/* Second Product */}
-    <div className="flex flex-col items-center">
-      <img
-        src="Granite dining table with dining chair 1.png" // Replace with the actual path to your image
-        alt="Granite dining table"
-        className="w-48 h-48 object-contain mb-4"
-      />
-      <p className="text-black-600">
-        Granite dining table with dining chairs
-      </p>
-      <h3 className="text-lg font-medium">Rs. 25,000.00</h3>
-    </div>
-
-    {/* Third Product */}
-    <div className="flex flex-col items-center">
-      <img
-        src="/Mask group (5).png" // Replace with the actual path to your image
-        alt="Outdoor bar table"
-        className="w-48 h-48 object-contain mb-4"
-      />
-      <p className="text-black-600">Outdoor bar table</p>
-      <h3 className="text-lg font-medium">Rs. 25,000.00</h3>
-    </div>
-
-    {/* Fourth Product */}
-    <div className="flex flex-col items-center">
-      <img
-        src="/Mask group (3).png" // Replace with the actual path to your image
-        alt="Plain console with mirror"
-        className="w-48 h-48 object-contain mb-4"
-      />
-      <p className="text-black-600">Plain console with mirror</p>
-      <h3 className="text-lg font-medium">Rs. 25,000.00</h3>
-    </div>
-  </div>
-
-  {/* View More Button */}
-  <div className="flex justify-center mt-8">
-    <button className="px-8 py-3 bg-black text-white rounded hover:bg-gray-800">
-      View More
+  {/* Right Text Section */}
+  <div className="flex-1 text-left pl-10">
+    <p className="text-lg text-gray-600 mb-4">New Arrivals</p>
+    <h2 className="text-4xl font-bold text-black mb-6">Asgaard sofa</h2>
+    <button className="px-6 py-3 bg- text-black border border-black rounded">
+      Order Now
     </button>
   </div>
 </div>
-
+ 
 
       {/* Blog Section */}
       <div className="bg-gray-50 py-16">
